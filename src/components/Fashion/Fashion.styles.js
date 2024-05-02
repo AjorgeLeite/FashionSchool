@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { fadeIn, slideFromBottom, slideFromTop } from "../Style/AnimationsCss";
 import { Breakpoints } from "../Style/Breakpoints";
+import "../Style/vars.css"
 
 export const Slide2Container = styled.div`
   position: relative;
@@ -57,16 +58,16 @@ export const VerticalText = styled.div`
 `;
 
 export const Title = styled.h1`
-  font-size: 20px;
-  font-weight: 700;
+  font-size: var(--large-font-size);
+  font-weight: var(--bold-font-weight);
   margin: 0;
   @media screen and (max-width: ${Breakpoints.m}) {
-    font-size: 14px;
+    font-size: var(--small-font-size);
   }
 `;
 export const TitleBig = styled.h1`
   font-size: 60px;
-  font-weight: 700;
+  font-weight: var(--bold-font-weight);
   margin: 0;
   text-align: left;
   animation: ${({ inView }) => (inView ? slideFromBottom : "none")} 3s ease
@@ -78,7 +79,7 @@ export const TitleBig = styled.h1`
 `;
 
 export const Text = styled.p`
-  font-size: 16px;
+  font-size: var(--medium-font-size);
   font-weight: 400;
 `;
 
@@ -88,8 +89,8 @@ export const Divider = styled.div`
 `;
 
 export const Text2 = styled.p`
-  font-size: 20px;
-  font-weight: 400;
+  font-size: var(--large-font-size);
+  font-weight: var(--regular-font-weight);
 `;
 
 export const FashionImg = styled.img`
@@ -111,8 +112,8 @@ export const FashionImg = styled.img`
 `;
 
 export const TextContent = styled.p`
-  font-size: 20px;
-  font-weight: 450;
+  font-size: var(--large-font-size);
+  font-weight: var(--regular-font-weight);
   text-align: left;
   width: 400px;
   animation: ${({ inView }) => (inView ? slideFromTop : "none")} 3s ease
@@ -162,13 +163,13 @@ export const SeeAllButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
-  font-weight: 700;
+  font-size: var(--medium-font-size);
+  font-weight: var(--bold-font-weight);
   cursor: pointer;
   @media screen and (max-width: ${Breakpoints.m}) {
     width: 100px;
     height: 40px;
-    font-size: 14px;
+    font-size: var(--small-font-size);
   }
 `;
 

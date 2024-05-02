@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Breakpoints } from "../Style/Breakpoints";
+import "../Style/vars.css"
 
 export const FooterContainer = styled.div`
   width: 80%;
@@ -71,15 +72,15 @@ export const FooterMainColumn = styled.div`
 `;
 
 export const FooterTitle = styled.h1`
-  font-size: 20px;
+  font-size: var(--large-font-size);
   width: 200px;
 `;
 
 export const FooterText = styled.p`
-  font-size: 20px;
+  font-size: var(--large-font-size);
   width: 200px;
   @media screen and (max-width: ${Breakpoints.m}) {
-    font-size: 16px;
+    font-size: var(--medium-font-size);
   }
 `;
 
@@ -104,7 +105,7 @@ export const BlackBarContent = styled.div`
   width: 80%;
   height: 69px;
   color: white;
-  font-size: 16px;
+  font-size: var(--medium-font-size);
   @media screen and (max-width: ${Breakpoints.m}) {
     font-size: 15px;
     height: 106px;

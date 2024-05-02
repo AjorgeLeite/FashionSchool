@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { fadeInTwist } from "../Style/AnimationsCss";
 import { Breakpoints } from "../Style/Breakpoints";
+import "../Style/vars.css"
 
 export const BigLetterTitleContainer = styled.div`
   position: relative;
@@ -18,8 +19,8 @@ export const BigLetterTitleContainer = styled.div`
 `;
 
 export const BigLetter = styled.h1`
-  font-size: 200px;
-  font-weight: 700;
+  font-size: var(--superlarge-font-size);
+  font-weight: var(--bold-font-weight);
   line-height: 200px;
   color: #e3e3e3;
   position: absolute;
@@ -38,7 +39,7 @@ export const Title = styled.h1`
 
   margin: 0;
   @media screen and (max-width: ${Breakpoints.m}) {
-    font-size: 20px;
+    font-size: var(--large-font-size);
   }
 `;
 
@@ -53,10 +54,10 @@ export const Divider = styled.div`
 
 export const Text = styled.p`
   width: 200px;
-  font-size: 20px;
+  font-size: var(--large-font-size);
   z-index: 10;
   @media screen and (max-width: ${Breakpoints.m}) {
-    font-size: 16px;
+    font-size: var(--medium-font-size);
     margin: 5px 30px;
   }
 `;
@@ -87,5 +88,21 @@ export const TitleAndDividerContainer = styled.div`
     justify-content: start;
     align-items: center;
     margin-left: 30px;
+  }
+`;
+
+export const SeeAllBtn = styled.button`
+  width: 166px;
+  height: 53px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--medium-font-size);
+  font-weight: var(--bold-font-weight);
+  cursor: pointer;
+  @media screen and (max-width: ${Breakpoints.xl}) {
+    display: none;
   }
 `;

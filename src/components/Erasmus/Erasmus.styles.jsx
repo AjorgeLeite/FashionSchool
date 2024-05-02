@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { slideFromBottom } from "../Style/AnimationsCss";
 import { Breakpoints } from "../Style/Breakpoints";
+import "../Style/vars.css"
 
 export const ErasmusContainer = styled.div`
   width: 100%;
@@ -41,8 +42,8 @@ export const ErasmusContentContainer = styled.div`
 export const ErasmusText = styled.p`
   height: 275px;
   width: 606px;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: var(--medium-font-size);
+  font-weight: var(--regular-font-weight);
   display: flex;
   flex-direction: column;
   justify-content: space-between;

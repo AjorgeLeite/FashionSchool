@@ -6,6 +6,7 @@ import {
   slideFromTop,
 } from "../Style/AnimationsCss";
 import { Breakpoints } from "../Style/Breakpoints";
+import "../Style/vars.css"
 
 export const SewMoreContainer = styled.div`
   height: 890px;
@@ -18,7 +19,7 @@ export const SewMoreContainer = styled.div`
 `;
 
 export const Rectangle = styled.div`
-  background-color: #6a3c76;
+  background-color: var(--Purple-color);
   width: 80%;
   height: 714px;
   position: absolute;
@@ -88,7 +89,7 @@ export const FormContainer = styled.div`
 
 export const FormTitle = styled.h1`
   font-size: 60px;
-  font-weight: 700;
+  font-weight: var(--bold-font-weight);
   color: white;
   margin: 0;
   animation: ${({ inView }) => (inView ? slideFromBottom : "none")} 3s ease
@@ -97,7 +98,7 @@ export const FormTitle = styled.h1`
     font-size: 40px;
   }
   @media screen and (max-width: ${Breakpoints.m}) {
-    font-size: 20px;
+    font-size: var(--large-font-size);
     max-width: 320px;
   }
 `;
@@ -134,8 +135,8 @@ export const DividerSubscribeContainer = styled.div`
   }
 `;
 export const Subscribe = styled.p`
-  font-size: 20px;
-  font-weight: 400;
+  font-size: var(--large-font-size);
+  font-weight: var(--regular-font-weight);
   color: white;
 `;
 
@@ -145,7 +146,7 @@ export const EmailInput = styled.input`
   background-color: transparent;
   border: 0;
   color: white;
-  font-size: 16px;
+  font-size: var(--small-font-size);
   padding-left: 20px;
 
   &::placeholder {

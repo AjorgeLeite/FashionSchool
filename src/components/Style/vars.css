@@ -1,17 +1,17 @@
 
 :root {
 
-    --Purple-color: #007bff;
+    --Purple-color: #6A3C76;
     --Orange-color: #FF7B44;
-    --White-color: #28a745;
-    --Black-color: #dc3545;
-
 
     --small-font-size: 14px;
     --medium-font-size: 16px;
-    --large-font-size: 18px;
-  
+    --large-font-size: 20px;
+    --xlarge-font-size: 32px;
+    --superlarge-font-size: 200px;
 
     --regular-font-weight: 400;
     --bold-font-weight: 700;
   }
+
+  

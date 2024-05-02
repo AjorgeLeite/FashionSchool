@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { slideFromTop, slideFromBottom, fadeIn } from "../Style/AnimationsCss";
 import { Breakpoints } from "../Style/Breakpoints";
+import "../Style/vars.css"
 
 export const Slide1Container = styled.div`
   max-width: 100%;
@@ -36,7 +37,7 @@ export const RectangleTextContainer = styled.div`
 `;
 
 export const Rectangle = styled.div`
-  background-color: #ff7b44;
+  background-color: var(--Orange-color);
   width: 80%;
   height: 720px;
   display: flex;
@@ -135,7 +136,7 @@ export const TextContainer = styled.div`
 
 export const Title = styled.p`
   font-size: 96px;
-  font-weight: 700;
+  font-weight: var(--bold-font-weight);
   margin: 0;
   line-height: 105px;
 
@@ -149,8 +150,8 @@ export const Title = styled.p`
 
 export const TextContent = styled.p`
   width: 609px;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: var(--large-font-size);
+  font-weight: var(--regular-font-size);
   text-align: left;
   animation: ${slideFromTop} 2s ease forwards;
 
@@ -164,8 +165,8 @@ export const KnowMoreLink = styled.div`
   align-items: center;
   justify-content: space-around;
   gap: 10px;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: var(--large-font-size);
+  font-weight: var(--bold-font-weight);
   width: 162px;
   height: 40px;
   border-bottom: 3px solid black;
@@ -173,7 +174,7 @@ export const KnowMoreLink = styled.div`
   animation: ${fadeIn} 5s ease forwards;
 
   @media screen and (max-width: ${Breakpoints.m}) {
-    font-size: 16px;
+    font-size: var(--small-font-size);
     border-bottom: 2px solid black;
     width: 134px;
     & img {

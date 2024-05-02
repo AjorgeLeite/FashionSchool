@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { fadeIn, fadeInTwist } from "../Style/AnimationsCss";
 import { Breakpoints } from "../Style/Breakpoints";
+import "../Style/vars.css"
 
 export const TextFrame = styled.div`
   width: 310px;
@@ -16,18 +17,18 @@ export const TextFrame = styled.div`
 `;
 
 export const Date = styled.p`
-  font-size: 16px;
-  font-weight: 700;
+  font-size: var(--medium-font-size);
+  font-weight: var(--bold-font-weight);
 `;
 
 export const Title = styled.p`
-  font-size: 32px;
-  font-weight: 700;
+  font-size: var(--xlarge-font-size);
+  font-weight: var(--bold-font-weight);
 `;
 
 export const Text = styled.p`
-  font-size: 20px;
-  font-weight: 400;
+  font-size: var(--large-font-size);
+  font-weight: var(--regular-font-weight);
   line-height: 32px;
 `;
 

@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer";
 import SewMore from "./components/SewMore/SewMore";
 import Erasmus from "./components/Erasmus/Erasmus";
 import Blog from "./components/Blog/Blog";
+import { SeeAllBtn } from "./components/BigLetterTitle/BigLetterTitle.styles";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
       <Erasmus />
       <div className="BlogTitle">
         <BigLetterTitle letter="B" title="BLOG" text="Latest news" />
-        <button className="SeeAllBtn">SEE ALL</button>
+        <SeeAllBtn>SEE ALL</SeeAllBtn>
       </div>
       <Blog />
       <SewMore />

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Breakpoints } from "../Style/Breakpoints";
+import "../Style/vars.css"
 
 export const NavContainer = styled.nav`
   width: 100%;
@@ -46,13 +47,13 @@ export const StyledButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
-  font-weight: 700;
+  font-size: var(--medium-font-size);
+  font-weight: var(--bold-font-weight);
   cursor: pointer;
   @media screen and (max-width: ${Breakpoints.m}) {
     width: 100px;
     height: 40px;
-    font-size: 14px;
+    font-size: var(--small-font-size);
   }
 `;
 
