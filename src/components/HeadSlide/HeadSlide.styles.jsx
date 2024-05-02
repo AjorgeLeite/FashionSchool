@@ -92,7 +92,7 @@ export const PersonImg = styled.img`
   }
   @media screen and (max-width: ${Breakpoints.s}) {
     right: -5%;
-    width: 350px;
+    width: 370px;
   }
 `;
 
