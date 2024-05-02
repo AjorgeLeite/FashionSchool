@@ -90,6 +90,10 @@ export const PersonImg = styled.img`
     right: -5%;
     width: 400px;
   }
+  @media screen and (max-width: ${Breakpoints.s}) {
+    right: -5%;
+    width: 350px;
+  }
 `;
 
 export const GradientOnPerson = styled.img`
@@ -113,7 +117,7 @@ export const GradientOnPerson = styled.img`
 
 export const TextContainer = styled.div`
   width: 1500px;
-  height: 720px;
+  height: 660px;
   z-index: 200;
   display: flex;
   flex-direction: column;

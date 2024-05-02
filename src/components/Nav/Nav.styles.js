@@ -18,6 +18,11 @@ export const NavContainer = styled.nav`
     padding-left: 10px;
     padding-right: 10px;
   }
+  @media screen and (max-width: ${Breakpoints.s}) {
+    gap: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 `;
 
 export const LogoContainer = styled.img`
@@ -54,6 +59,11 @@ export const StyledButton = styled.button`
     width: 100px;
     height: 40px;
     font-size: var(--small-font-size);
+  }
+  @media screen and (max-width: ${Breakpoints.s}) {
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
   }
 `;
 

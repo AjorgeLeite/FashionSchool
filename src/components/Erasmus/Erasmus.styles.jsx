@@ -42,7 +42,6 @@ export const ErasmusContentContainer = styled.div`
   @media screen and (max-width: ${Breakpoints.m}) {
     justify-content: space-between;
     gap: 5%;
-
     max-width: 500px;
   }
 `;
@@ -62,6 +61,7 @@ export const ErasmusText = styled.p`
     width: 100%;
     height: auto;
   }
+ 
 `;
 
 export const ErasmusImg = styled.img`
