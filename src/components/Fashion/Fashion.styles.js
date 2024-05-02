@@ -125,6 +125,9 @@ export const TextContent = styled.p`
     font-size: var(--medium-font-size);
     width: 250px;
   }
+  @media screen and (max-width: ${Breakpoints.s}) {
+    width: 230px;
+  }
 `;
 
 export const TextContainer = styled.div`
