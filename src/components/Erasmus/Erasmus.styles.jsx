@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { slideFromBottom } from "../Style/AnimationsCss";
 import { Breakpoints } from "../Style/Breakpoints";
-import "../Style/vars.css"
+import "../Style/vars.css";
 
 export const ErasmusContainer = styled.div`
   width: 100%;
@@ -12,7 +12,7 @@ export const ErasmusContainer = styled.div`
   position: relative;
   animation-delay: 10ms;
   @media screen and (max-width: ${Breakpoints.xl}) {
-   height: 500px;
+    height: 500px;
   }
   @media screen and (max-width: ${Breakpoints.m}) {
     align-items: start;
@@ -30,8 +30,8 @@ export const ErasmusContentContainer = styled.div`
   position: relative;
   animation: ${({ inView }) => (inView ? slideFromBottom : "none")} 2s ease
     backwards;
-    margin-left: 100px;
-    gap: 20%;
+  margin-left: 100px;
+  gap: 20%;
   @media screen and (max-width: ${Breakpoints.xl}) {
     margin-left: 0;
     align-items: center;
@@ -42,7 +42,7 @@ export const ErasmusContentContainer = styled.div`
   @media screen and (max-width: ${Breakpoints.m}) {
     justify-content: space-between;
     gap: 5%;
-    
+
     max-width: 500px;
   }
 `;
