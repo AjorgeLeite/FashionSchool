@@ -32,14 +32,15 @@ export const Text = styled.p`
 `;
 
 export const BlogContainer = styled.div`
-  width: 80%;
+  width: 100%;
   height: 1300px;
   display: flex;
   gap: 20px;
   position: relative;
+  justify-content: center;
   @media screen and (max-width: ${Breakpoints.xl}) {
     height: 900px;
-    justify-content: center;
+    
   }
   @media screen and (max-width: ${Breakpoints.m}) {
     height: 850px;

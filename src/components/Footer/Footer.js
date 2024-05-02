@@ -45,7 +45,7 @@ const Footer = () => {
       <BlackBar>
         <BlackBarContent>
           <p>© Fashion School, 2024. All Rights Reserved</p>
-          <img src="/LogoFooter.png"></img>
+          <img src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/LogoFooter.png?raw=true"></img>
         </BlackBarContent>
       </BlackBar>
     </>
