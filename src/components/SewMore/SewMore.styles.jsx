@@ -51,6 +51,11 @@ export const PersonFormContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: ${Breakpoints.xxl}) {
+    width: 100%;
+    justify-content: start;
+    margin-left: -100px;
+  }
   @media screen and (max-width: ${Breakpoints.xl}) {
     width: 100%;
   }
@@ -67,12 +72,7 @@ export const FormContainer = styled.div`
   margin-top: 5%;
 
   @media screen and (max-width: ${Breakpoints.xxl}) {
-    margin-top: 100px;
-    width: 500px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+   
   }
 
   @media screen and (max-width: ${Breakpoints.xxl}) {
