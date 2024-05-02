@@ -1,0 +1,62 @@
+.swiper-pagination {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+}
+
+.swiper-pagination-bullet {
+  width: 78px;
+  height: 5px;
+  background-color: #ffffff;
+  opacity: 1;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000000;
+  opacity: 1;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 196px;
+  height: 196px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+  cursor: pointer;
+  @media screen and (max-width: 1300px) {
+    width: 120px;
+    height: 120px;
+  }
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.swiper-button-prev {
+  right: 196px;
+  background-image: url("../../../public/arrowleft.png");
+  background-size: 54px;
+  background-repeat: no-repeat;
+  background-position: center;
+  @media screen and (max-width: 1300px) {
+    right: 120px;
+  }
+}
+
+.swiper-button-next {
+  right: 10px;
+  background-image: url("../../../public/arrowright.png");
+  background-size: 54px;
+  background-repeat: no-repeat;
+  background-position: center;
+}

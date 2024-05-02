@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import BigLetterTitle from "./components/BigLetterTitle/BigLetterTitle";
+import Navbar from "./components/Nav/Nav";
+import Slider from "./components/Slider/Slider";
+import Fashion from "./components/Fashion/Fashion";
+import Footer from "./components/Footer/Footer";
+import SewMore from "./components/SewMore/SewMore";
+import Erasmus from "./components/Erasmus/Erasmus";
+import Blog from "./components/Blog/Blog";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Slider></Slider>
+      <BigLetterTitle letter="C" title="COURSES" text="Our offers" />
+      <Fashion/>
+      <BigLetterTitle
+        letter="E"
+        title="ERASMUS+"
+        text="International courses"
+      />
+      <Erasmus />
+      <div className="BlogTitle">
+        <BigLetterTitle letter="B" title="BLOG" text="Latest news" />
+        <button className="SeeAllBtn">SEE ALL</button>
+      </div>
+      <Blog />
+      <SewMore />
+      <Footer />
     </div>
   );
 }
