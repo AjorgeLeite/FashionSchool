@@ -19,7 +19,7 @@ const Footer = () => {
             <FooterText>
               Rua Alfredo Allen, Porto T. +351 222 2222 22 info@fashionschool.pt
             </FooterText>
-            <img src="/Frame 50.png" />
+            <img src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/Frame%2050.png?raw=true" />
           </FooterMainColumn>
         </FooterColumn>
         <FooterColumnsContainer>

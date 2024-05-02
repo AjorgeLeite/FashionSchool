@@ -36,11 +36,11 @@ const Erasmus = () => {
           </ErasmusText>
           <KnowMoreLink>
             Know More
-            <img src="/textarrow.png" alt="Know More"/>
+            <img src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/textarrow.png?raw=true" alt="Know More"/>
           </KnowMoreLink>
         </ErasmusTextKnowMoreContainer>
       </ErasmusContentContainer>
-      <ErasmusImg src="/erasmus.png" />
+      <ErasmusImg src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/erasmus.png?raw=true" />
     </ErasmusContainer>
   );
 };

@@ -20,9 +20,9 @@ const Blog = () => {
 
   return (
     <BlogContainer ref={ref}>
-      <BlogBg src="/blogbg.png" />
+      <BlogBg src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/blogbg.png?raw=true" />
       <Image1Container inView={inView}>
-        <img src="/img1.jpg" />
+        <img src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/img1.jpg?raw=true" />
         <TextFrame inView={inView}>
           <Date>20 jun 2024</Date>
           <Title>Specialization Options</Title>
@@ -30,7 +30,7 @@ const Blog = () => {
         </TextFrame>
       </Image1Container>
       <Image2Container inView={inView}>
-        <img src="/img2.png" />
+        <img src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/img2.png?raw=true" />
         <TextFrame inView={inView}>
           <Date>20 jun 2024</Date>
           <Title>Fashion Partnership</Title>
@@ -38,7 +38,7 @@ const Blog = () => {
         </TextFrame>
       </Image2Container>
       <Image3Container inView={inView}>
-        <img src="/img3.png" />
+        <img src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/img3.png?raw=true" />
         <TextFrame inView={inView}>
           <Date>20 jun 2024</Date>
           <Title>Beyond the Classroom</Title>

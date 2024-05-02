@@ -18,10 +18,10 @@ const Navbar = () => {
   return (
     <>
       <NavContainer>
-        <LogoContainer src="/logo.png" />
+        <LogoContainer src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/Logo.png?raw=true" />
         <MenuContainer>
           <StyledButton>SIGN UP</StyledButton>
-          <HamburgerMenu src="Hamburger.png" onClick={toggleMenu} />
+          <HamburgerMenu src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/Hamburger.png?raw=true" onClick={toggleMenu} />
         </MenuContainer>
       </NavContainer>
       <Menu isOpen={isMenuOpen} onClose={toggleMenu} />

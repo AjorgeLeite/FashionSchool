@@ -33,17 +33,17 @@ const Slide1 = () => {
           </TextContent>
           <KnowMoreLink inView={inView}>
             Know more
-            <img src="/textarrow.png" alt="Arrow Icon" />
+            <img src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/textarrow.png?raw=true" alt="Arrow Icon" />
           </KnowMoreLink>
         </TextContainer>
         <RectangleTextContainer>
           <PersonContainer>
-            <GradientOnPerson src="/Rectangle 22.png" />
-            <PersonImg src="/Person2.png" alt="Person" />
+            <GradientOnPerson src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/Rectangle%2022.png?raw=true" />
+            <PersonImg src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/Person2.png?raw=true" alt="Person" />
           </PersonContainer>
 
           <Rectangle inView={inView}>
-            <RectangleImg src="/Frame 43.png" alt="Rectangle Image" />
+            <RectangleImg src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/Frame%2043.png?raw=true" alt="Rectangle Image" />
           </Rectangle>
         </RectangleTextContainer>
       </RectangleContainer>

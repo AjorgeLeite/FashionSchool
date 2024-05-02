@@ -27,7 +27,7 @@ const Fashion = () => {
 
   return (
     <Slide2Container ref={ref}>
-      <OvalContainer src="/Oval.png"></OvalContainer>
+      <OvalContainer src="https://raw.githubusercontent.com/AjorgeLeite/FashionSchool/main/public/Oval.png"></OvalContainer>
       <ContentContainer>
         <VerticalText>
           <Title>Design Technician</Title>
@@ -36,7 +36,7 @@ const Fashion = () => {
           <Text2>2 Years</Text2>
         </VerticalText>
         <ImageTextContainer>
-          <FashionImg src="/moda.png" inView={inView} alt="moda" />
+          <FashionImg src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/moda.png?raw=true" inView={inView} alt="moda" />
           <TextContainer>
             <TitleBig inView={inView}>FASHION DESIGN</TitleBig>
             <TextContent inView={inView}>
@@ -46,7 +46,7 @@ const Fashion = () => {
             </TextContent>
             <KnowMoreLink>
               Know more
-              <img src="/textarrow.png" alt="Know More"></img>
+              <img src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/textarrow.png?raw=true" alt="Know More"></img>
             </KnowMoreLink>
           </TextContainer>
         </ImageTextContainer>
@@ -54,12 +54,12 @@ const Fashion = () => {
       <NavigationContainer>
         <PrevNextButtonContainer>
           <PrevNextButton>
-            <img src="/arrowleft.png" alt="Prev" />
+            <img src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/arrowleft.png?raw=true" alt="Prev" />
           </PrevNextButton>
         </PrevNextButtonContainer>
         <PrevNextButtonContainer>
           <PrevNextButton>
-            <img src="/arrowright.png" alt="Next" />
+            <img src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/arrowright.png?raw=true" alt="Next" />
           </PrevNextButton>
         </PrevNextButtonContainer>
         <SeeAllButton>See all</SeeAllButton>

@@ -24,7 +24,7 @@ const SewMore = () => {
       <SewMoreContainer ref={ref}>
         <Rectangle />
         <PersonFormContainer>
-          <PersonImg src="/frankflores.png" inView={inView} />
+          <PersonImg src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/frankflores.png?raw=true" inView={inView} />
           <FormContainer inView={inView}>
             <FormTitle inView={inView}>
               Sew Much More Than Just Clothes
@@ -35,7 +35,7 @@ const SewMore = () => {
             </DividerSubscribeContainer>
             <InputContainer inView={inView}>
               <EmailInput type="email" placeholder="Your Email" />
-              <EmailSendImg src="/emailsend.png" />
+              <EmailSendImg src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/emailsend.png?raw=true" />
             </InputContainer>
           </FormContainer>
         </PersonFormContainer>
