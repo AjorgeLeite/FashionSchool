@@ -39,8 +39,11 @@ export const MenuContainer = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 48px;
   @media screen and (max-width: ${Breakpoints.m}) {
-    width: 40%;
+    gap: 10px;
+    width: 149px;
+    height: 41px;
   }
 `;
 
@@ -56,13 +59,11 @@ export const StyledButton = styled.button`
   font-weight: var(--bold-font-weight);
   cursor: pointer;
   @media screen and (max-width: ${Breakpoints.m}) {
-    width: 100px;
-    height: 40px;
+    width: 101px;
+    height: 41px;
     font-size: var(--small-font-size);
   }
   @media screen and (max-width: ${Breakpoints.s}) {
-    width: 80px;
-    height: 30px;
     font-size: 12px;
   }
 `;

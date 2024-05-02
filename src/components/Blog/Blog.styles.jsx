@@ -14,6 +14,9 @@ export const TextFrame = styled.div`
   padding: 20px;
   animation: ${({ inView }) => (inView ? fadeIn : "none")} 3s ease forwards;
   animation-delay: 100ms;
+  @media screen and (max-width: ${Breakpoints.s}) {
+    width: 280px;
+  }
 `;
 
 export const Date = styled.p`
@@ -43,7 +46,10 @@ export const BlogContainer = styled.div`
     height: 900px;
   }
   @media screen and (max-width: ${Breakpoints.m}) {
-    height: 850px;
+    height: 870px;
+  }
+  @media screen and (max-width: ${Breakpoints.s}) {
+    height: 800px;
   }
 `;
 
@@ -70,6 +76,13 @@ export const Image1Container = styled.div`
       width: 330px;
     }
     width: 330px;
+  }
+  @media screen and (max-width: ${Breakpoints.s}) {
+    justify-content: center;
+    height: 720px;
+    & img {
+      width: 300px;
+    }
   }
 `;
 export const Image2Container = styled.div`

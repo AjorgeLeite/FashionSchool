@@ -50,6 +50,9 @@ export const FooterColumn = styled.div`
   @media screen and (max-width: ${Breakpoints.m}) {
     justify-content: start;
   }
+  @media screen and (max-width: ${Breakpoints.s}) {
+    flex-wrap: wrap;
+  }
 `;
 
 export const FooterMainColumn = styled.div`
@@ -62,7 +65,22 @@ export const FooterMainColumn = styled.div`
   & img {
     margin-top: 12%;
   }
+  @media screen and (max-width: ${Breakpoints.xl}) {
+   justify-content: space-between;
+   align-items: center;
+   height: auto;
+   text-align: center;
+   flex-direction: row;
+   gap: 50px;
+   & img {
+    margin-top: 0;
+  }
+}
   @media screen and (max-width: ${Breakpoints.m}) {
+    justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  text-align: left;
     width: 100%;
     margin: 10px 30px;
     & img {
@@ -81,6 +99,9 @@ export const FooterText = styled.p`
   width: 200px;
   @media screen and (max-width: ${Breakpoints.m}) {
     font-size: var(--medium-font-size);
+  }
+  @media screen and (max-width: ${Breakpoints.s}) {
+    width: auto;
   }
 `;
 

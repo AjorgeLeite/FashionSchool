@@ -170,6 +170,9 @@ export const EmailInput = styled.input`
   @media screen and (max-width: ${Breakpoints.m}) {
     width: 250px;
   }
+  @media screen and (max-width: ${Breakpoints.s}) {
+    width: 220px;
+  }
 `;
 
 export const EmailSendImg = styled.img`
@@ -192,5 +195,8 @@ export const InputContainer = styled.div`
   }
   @media screen and (max-width: ${Breakpoints.m}) {
     width: 300px;
+  }
+  @media screen and (max-width: ${Breakpoints.s}) {
+    width: 270px;
   }
 `;

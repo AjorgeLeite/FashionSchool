@@ -90,11 +90,11 @@ export const PersonImg = styled.img`
     height: auto;
   }
   @media screen and (max-width: ${Breakpoints.m}) {
-    right: -5%;
-    width: 400px;
+    right: -10%;
+    width: 420px;
   }
   @media screen and (max-width: ${Breakpoints.s}) {
-    right: -5%;
+    right: -10%;
     width: 370px;
   }
 `;
@@ -110,10 +110,10 @@ export const GradientOnPerson = styled.img`
   align-self: flex-end;
   justify-content: end;
   @media screen and (max-width: ${Breakpoints.xl}) {
-    right: calc(5% + 10px);
+    right: calc(5% + 25px);
   }
   @media screen and (max-width: ${Breakpoints.m}) {
-    right: calc(-5% + 45px);
+    right: calc(-10% + 45px);
     height: 300px;
   }
 `;
