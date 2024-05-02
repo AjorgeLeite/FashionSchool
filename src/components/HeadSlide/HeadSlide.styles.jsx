@@ -11,6 +11,9 @@ export const HeadSlideContainer = styled.div`
   @media screen and (max-width: ${Breakpoints.xl}) {
     flex-direction: column;
   }
+  @media screen and (max-width: ${Breakpoints.m}) {
+    height:820px;
+  }
 `;
 export const RectangleContainer = styled.div`
   width: 100%;
