@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { fadeIn, fadeInTwist, slideFromBottom, slideFromTop } from "../Style/AnimationsCss";
+import { fadeIn, fadeInTwist } from "../Style/AnimationsCss";
 import { Breakpoints } from "../Style/Breakpoints";
 import "../Style/vars.css"
 

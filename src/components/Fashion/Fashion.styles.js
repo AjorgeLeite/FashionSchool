@@ -122,7 +122,7 @@ export const TextContent = styled.p`
     width: 350px;
   }
   @media screen and (max-width: ${Breakpoints.m}) {
-    width: 270px;
+    width: 250px;
   }
 `;
 
