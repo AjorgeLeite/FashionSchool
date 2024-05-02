@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { fadeInTwist } from "../Style/AnimationsCss";
+import { fadeIn, fadeInTwist, slideFromBottom, slideFromTop } from "../Style/AnimationsCss";
 import { Breakpoints } from "../Style/Breakpoints";
 import "../Style/vars.css"
 
@@ -101,6 +101,7 @@ export const SeeAllBtn = styled.button`
   justify-content: center;
   font-size: var(--medium-font-size);
   font-weight: var(--bold-font-weight);
+  animation: ${({ inView }) => (inView ? fadeIn : "none")} 3s ease forwards;
   cursor: pointer;
   @media screen and (max-width: ${Breakpoints.xl}) {
     display: none;
