@@ -8,7 +8,7 @@ export const ErasmusContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 410px;
+  height: 364px;
   position: relative;
   animation-delay: 10ms;
   @media screen and (max-width: ${Breakpoints.xl}) {
@@ -16,7 +16,7 @@ export const ErasmusContainer = styled.div`
   }
   @media screen and (max-width: ${Breakpoints.m}) {
     align-items: start;
-    height: 650px;
+    height: 600px;
   }
 `;
 
@@ -24,24 +24,33 @@ export const ErasmusContentContainer = styled.div`
   width: 70%;
   height: 274px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 100px;
   align-items: start;
   position: relative;
   animation: ${({ inView }) => (inView ? slideFromBottom : "none")} 2s ease
     backwards;
+    margin-left: 100px;
+    gap: 20%;
   @media screen and (max-width: ${Breakpoints.xl}) {
+    margin-left: 0;
+    align-items: center;
+    width: 80%;
     gap: 10%;
+    flex-direction: column;
   }
   @media screen and (max-width: ${Breakpoints.m}) {
+    justify-content: space-between;
     gap: 5%;
-    flex-direction: column;
+    
     max-width: 500px;
   }
 `;
 
 export const ErasmusText = styled.p`
   height: 275px;
-  width: 606px;
+  width: 100%;
+  max-width: 606px;
   font-size: var(--medium-font-size);
   font-weight: var(--regular-font-weight);
   display: flex;
@@ -57,8 +66,8 @@ export const ErasmusText = styled.p`
 
 export const ErasmusImg = styled.img`
   position: absolute;
-  right: 60px;
-  top: 90px;
+  right: 0;
+  top: 60px;
   display: flex;
   @media screen and (max-width: ${Breakpoints.m}) {
     display: none;
@@ -68,7 +77,8 @@ export const ErasmusImg = styled.img`
 export const ErasmusTextKnowMoreContainer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 606px;
+  width: 100%;
+  max-width: 606px;
   height: 204px;
   @media screen and (max-width: ${Breakpoints.xl}) {
     width: 100%;

@@ -27,7 +27,7 @@ const Erasmus = () => {
           transform your passion for fashion into a thriving career.
         </ErasmusText>
         <ErasmusTextKnowMoreContainer>
-          <ErasmusText>
+          <ErasmusText inView={inView}>
             Choose from our specialized programs in Fashion Design, Fashion
             Business, or Fashion Marketing to tailor your education to your
             specific goals. Benefit from our extensive industry network, with
