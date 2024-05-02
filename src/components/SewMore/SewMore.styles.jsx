@@ -6,7 +6,7 @@ import {
   slideFromTop,
 } from "../Style/AnimationsCss";
 import { Breakpoints } from "../Style/Breakpoints";
-import "../Style/vars.css";
+import "../Style/vars.css"
 
 export const SewMoreContainer = styled.div`
   height: 890px;
@@ -66,6 +66,18 @@ export const FormContainer = styled.div`
   z-index: 200;
   margin-top: 5%;
 
+  @media screen and (max-width: ${Breakpoints.xxl}) {
+    margin-top: 100px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  @media screen and (max-width: ${Breakpoints.xxl}) {
+    width: 400px;
+  }
   @media screen and (max-width: ${Breakpoints.xl}) {
     margin-top: 100px;
     width: 500px;
@@ -152,8 +164,8 @@ export const EmailInput = styled.input`
   &::placeholder {
     color: white;
   }
-  @media screen and (max-width: ${Breakpoints.xl}) {
-    width: 300px;
+  @media screen and (max-width: ${Breakpoints.xxl}) {
+    width: 200px;
   }
   @media screen and (max-width: ${Breakpoints.m}) {
     width: 250px;
@@ -172,6 +184,9 @@ export const InputContainer = styled.div`
   justify-content: space-around;
   animation: ${({ inView }) => (inView ? slideFromTop : "none")} 3s ease
     forwards;
+    @media screen and (max-width: ${Breakpoints.xxl}) {
+    width: 240px;
+  }
   @media screen and (max-width: ${Breakpoints.xl}) {
     width: 350px;
   }

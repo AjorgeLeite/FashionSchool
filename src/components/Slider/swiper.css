@@ -33,7 +33,7 @@
   right: 0;
   z-index: 1000;
   cursor: pointer;
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1024px) {
     width: 120px;
     height: 120px;
   }
@@ -48,7 +48,7 @@
   background-size: 54px;
   background-repeat: no-repeat;
   background-position: center;
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1024px) {
     right: 120px;
   }
 }

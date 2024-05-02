@@ -182,10 +182,10 @@ export const NavigationContainer = styled.div`
   background-color: transparent;
   position: absolute;
   right: 0;
-  bottom: 2%;
+  bottom: 0;
   z-index: 2000;
   gap: 10px;
-  margin-right: 150px;
+  margin-right: 100px;
   @media screen and (max-width: ${Breakpoints.xl}) {
     margin-right: 50px;
   }

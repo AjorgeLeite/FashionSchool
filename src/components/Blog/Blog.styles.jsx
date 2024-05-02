@@ -62,7 +62,7 @@ export const Image1Container = styled.div`
       width: 450px;
     }
     width: 450px;
-    height: 760px;
+    height: 790px;
     align-items: start;
   }
   @media screen and (max-width: ${Breakpoints.m}) {
@@ -93,7 +93,7 @@ export const Image3Container = styled.div`
   height: 585px;
   position: relative;
   animation: ${({ inView }) => (inView ? fadeInTwist : "none")} 3s ease forwards;
-  @media screen and (max-width: ${Breakpoints.xl}) {
+  @media screen and (max-width: 1300px) {
     display: none;
   }
   @media screen and (max-width: ${Breakpoints.m}) {

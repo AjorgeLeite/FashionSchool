@@ -116,7 +116,8 @@ export const GradientOnPerson = styled.img`
 `;
 
 export const TextContainer = styled.div`
-  width: 1500px;
+width: 100%;
+  max-width: 1500px;
   height: 660px;
   z-index: 200;
   display: flex;
@@ -153,7 +154,8 @@ export const Title = styled.p`
 `;
 
 export const TextContent = styled.p`
-  width: 609px;
+  width: 100%;
+  max-width: 689px;
   font-size: var(--large-font-size);
   font-weight: var(--regular-font-size);
   text-align: left;
