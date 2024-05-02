@@ -8,7 +8,7 @@ export const ErasmusContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 364px;
+  height: 410px;
   position: relative;
   animation-delay: 10ms;
   @media screen and (max-width: ${Breakpoints.xl}) {
