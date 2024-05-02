@@ -162,6 +162,9 @@ export const TextContent = styled.p`
   @media screen and (max-width: ${Breakpoints.xl}) {
     width: 100%;
   }
+  @media screen and (max-width: ${Breakpoints.m}) {
+    font-size: var(--medium-font-size);
+  }
 `;
 
 export const KnowMoreLink = styled.div`

@@ -122,6 +122,7 @@ export const TextContent = styled.p`
     width: 350px;
   }
   @media screen and (max-width: ${Breakpoints.m}) {
+    font-size: var(--medium-font-size);
     width: 250px;
   }
 `;
