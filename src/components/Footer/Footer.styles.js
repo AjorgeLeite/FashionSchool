@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Breakpoints } from "../Style/Breakpoints";
-import "../Style/vars.css"
+import "../Style/vars.css";
 
 export const FooterContainer = styled.div`
   width: 80%;

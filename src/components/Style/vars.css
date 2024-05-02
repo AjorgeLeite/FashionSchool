@@ -1,17 +1,13 @@
-
 :root {
+  --Purple-color: #6a3c76;
+  --Orange-color: #ff7b44;
 
-    --Purple-color: #6A3C76;
-    --Orange-color: #FF7B44;
+  --small-font-size: 14px;
+  --medium-font-size: 16px;
+  --large-font-size: 20px;
+  --xlarge-font-size: 32px;
+  --superlarge-font-size: 200px;
 
-    --small-font-size: 14px;
-    --medium-font-size: 16px;
-    --large-font-size: 20px;
-    --xlarge-font-size: 32px;
-    --superlarge-font-size: 200px;
-
-    --regular-font-weight: 400;
-    --bold-font-weight: 700;
-  }
-
-  
+  --regular-font-weight: 400;
+  --bold-font-weight: 700;
+}

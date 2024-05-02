@@ -1,4 +1,4 @@
-import { KnowMoreLink } from "../Slide1/Slide1.styles";
+import { KnowMoreLink } from "../HeadSlide/HeadSlide.styles";
 import {
   OvalContainer,
   Slide2Container,
@@ -36,7 +36,11 @@ const Fashion = () => {
           <Text2>2 Years</Text2>
         </VerticalText>
         <ImageTextContainer>
-          <FashionImg src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/moda.png?raw=true" inView={inView} alt="moda" />
+          <FashionImg
+            src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/moda.png?raw=true"
+            inView={inView}
+            alt="moda"
+          />
           <TextContainer>
             <TitleBig inView={inView}>FASHION DESIGN</TitleBig>
             <TextContent inView={inView}>
@@ -46,7 +50,10 @@ const Fashion = () => {
             </TextContent>
             <KnowMoreLink>
               Know more
-              <img src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/textarrow.png?raw=true" alt="Know More"></img>
+              <img
+                src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/textarrow.png?raw=true"
+                alt="Know More"
+              ></img>
             </KnowMoreLink>
           </TextContainer>
         </ImageTextContainer>
@@ -54,12 +61,18 @@ const Fashion = () => {
       <NavigationContainer>
         <PrevNextButtonContainer>
           <PrevNextButton>
-            <img src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/arrowleft.png?raw=true" alt="Prev" />
+            <img
+              src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/arrowleft.png?raw=true"
+              alt="Prev"
+            />
           </PrevNextButton>
         </PrevNextButtonContainer>
         <PrevNextButtonContainer>
           <PrevNextButton>
-            <img src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/arrowright.png?raw=true" alt="Next" />
+            <img
+              src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/arrowright.png?raw=true"
+              alt="Next"
+            />
           </PrevNextButton>
         </PrevNextButtonContainer>
         <SeeAllButton>See all</SeeAllButton>

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { fadeIn, fadeInTwist } from "../Style/AnimationsCss";
 import { Breakpoints } from "../Style/Breakpoints";
-import "../Style/vars.css"
+import "../Style/vars.css";
 
 export const TextFrame = styled.div`
   width: 310px;
@@ -41,7 +41,6 @@ export const BlogContainer = styled.div`
   justify-content: center;
   @media screen and (max-width: ${Breakpoints.xl}) {
     height: 900px;
-    
   }
   @media screen and (max-width: ${Breakpoints.m}) {
     height: 850px;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { fadeIn, slideFromBottom, slideFromTop } from "../Style/AnimationsCss";
 import { Breakpoints } from "../Style/Breakpoints";
-import "../Style/vars.css"
+import "../Style/vars.css";
 
 export const Slide2Container = styled.div`
   position: relative;
@@ -215,11 +215,11 @@ export const PrevNextButton = styled.button`
   }
   @media screen and (max-width: ${Breakpoints.m}) {
     & img {
-    width: 34px;
-    height: 34px;
-  }
+      width: 34px;
+      height: 34px;
+    }
   }
 `;
 export const PrevNextButtonContainer = styled.div`
-height: 41px;
+  height: 41px;
 `;

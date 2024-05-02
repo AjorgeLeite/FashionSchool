@@ -1,4 +1,4 @@
-import { KnowMoreLink } from "../Slide1/Slide1.styles";
+import { KnowMoreLink } from "../HeadSlide/HeadSlide.styles";
 import {
   ErasmusContainer,
   ErasmusTextKnowMoreContainer,
@@ -36,7 +36,10 @@ const Erasmus = () => {
           </ErasmusText>
           <KnowMoreLink>
             Know More
-            <img src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/textarrow.png?raw=true" alt="Know More"/>
+            <img
+              src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/textarrow.png?raw=true"
+              alt="Know More"
+            />
           </KnowMoreLink>
         </ErasmusTextKnowMoreContainer>
       </ErasmusContentContainer>

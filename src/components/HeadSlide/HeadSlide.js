@@ -6,14 +6,14 @@ import {
   Title,
   RectangleTextContainer,
   PersonContainer,
-} from "./Slide1.styles";
+} from "./HeadSlide.styles";
 import {
   Rectangle,
-  Slide1Container,
+  HeadSlideContainer,
   RectangleImg,
   PersonImg,
   GradientOnPerson,
-} from "./Slide1.styles";
+} from "./HeadSlide.styles";
 import { useInView } from "react-intersection-observer";
 
 const Slide1 = () => {
@@ -22,7 +22,7 @@ const Slide1 = () => {
   });
 
   return (
-    <Slide1Container ref={ref}>
+    <HeadSlideContainer ref={ref}>
       <RectangleContainer>
         <TextContainer>
           <Title inView={inView}>FROM SKETCH TO SUCCESS</Title>
@@ -33,21 +33,30 @@ const Slide1 = () => {
           </TextContent>
           <KnowMoreLink inView={inView}>
             Know more
-            <img src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/textarrow.png?raw=true" alt="Arrow Icon" />
+            <img
+              src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/textarrow.png?raw=true"
+              alt="Arrow Icon"
+            />
           </KnowMoreLink>
         </TextContainer>
         <RectangleTextContainer>
           <PersonContainer>
             <GradientOnPerson src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/Rectangle%2022.png?raw=true" />
-            <PersonImg src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/Person2.png?raw=true" alt="Person" />
+            <PersonImg
+              src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/Person2.png?raw=true"
+              alt="Person"
+            />
           </PersonContainer>
 
           <Rectangle inView={inView}>
-            <RectangleImg src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/Frame%2043.png?raw=true" alt="Rectangle Image" />
+            <RectangleImg
+              src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/Frame%2043.png?raw=true"
+              alt="Rectangle Image"
+            />
           </Rectangle>
         </RectangleTextContainer>
       </RectangleContainer>
-    </Slide1Container>
+    </HeadSlideContainer>
   );
 };
 

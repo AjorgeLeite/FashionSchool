@@ -10,17 +10,16 @@ import Blog from "./components/Blog/Blog";
 import { SeeAllBtn } from "./components/BigLetterTitle/BigLetterTitle.styles";
 import { useInView } from "react-intersection-observer";
 function App() {
-
   const { ref, inView } = useInView({
     triggerOnce: true,
   });
-  
+
   return (
     <div className="App" ref={ref}>
       <Navbar />
       <Slider></Slider>
       <BigLetterTitle letter="C" title="COURSES" text="Our offers" />
-      <Fashion/>
+      <Fashion />
       <BigLetterTitle
         letter="E"
         title="ERASMUS+"

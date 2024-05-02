@@ -61,7 +61,6 @@ export const ErasmusText = styled.p`
     width: 100%;
     height: auto;
   }
- 
 `;
 
 export const ErasmusImg = styled.img`

@@ -6,7 +6,7 @@ import {
   slideFromTop,
 } from "../Style/AnimationsCss";
 import { Breakpoints } from "../Style/Breakpoints";
-import "../Style/vars.css"
+import "../Style/vars.css";
 
 export const SewMoreContainer = styled.div`
   height: 890px;

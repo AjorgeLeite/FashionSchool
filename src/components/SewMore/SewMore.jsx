@@ -24,7 +24,10 @@ const SewMore = () => {
       <SewMoreContainer ref={ref}>
         <Rectangle />
         <PersonFormContainer>
-          <PersonImg src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/frankflores.png?raw=true" inView={inView} />
+          <PersonImg
+            src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/frankflores.png?raw=true"
+            inView={inView}
+          />
           <FormContainer inView={inView}>
             <FormTitle inView={inView}>
               Sew Much More Than Just Clothes

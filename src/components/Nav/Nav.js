@@ -21,7 +21,10 @@ const Navbar = () => {
         <LogoContainer src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/Logo.png?raw=true" />
         <MenuContainer>
           <StyledButton>SIGN UP</StyledButton>
-          <HamburgerMenu src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/Hamburger.png?raw=true" onClick={toggleMenu} />
+          <HamburgerMenu
+            src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/Hamburger.png?raw=true"
+            onClick={toggleMenu}
+          />
         </MenuContainer>
       </NavContainer>
       <Menu isOpen={isMenuOpen} onClose={toggleMenu} />

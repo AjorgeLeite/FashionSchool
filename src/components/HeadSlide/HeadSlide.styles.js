@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import { slideFromTop, slideFromBottom, fadeIn } from "../Style/AnimationsCss";
 import { Breakpoints } from "../Style/Breakpoints";
-import "../Style/vars.css"
+import "../Style/vars.css";
 
-export const Slide1Container = styled.div`
+export const HeadSlideContainer = styled.div`
   max-width: 100%;
   width: 100%;
   height: 920px;
