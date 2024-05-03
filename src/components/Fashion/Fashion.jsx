@@ -1,3 +1,4 @@
+import Btn from "../Btn/Btn";
 import { KnowMoreLink } from "../HeadSlide/HeadSlide.styles";
 import {
   OvalContainer,
@@ -16,7 +17,6 @@ import {
   NavigationContainer,
   PrevNextButton,
   PrevNextButtonContainer,
-  SeeAllButton,
 } from "./Fashion.styles";
 import { useInView } from "react-intersection-observer";
 
@@ -75,7 +75,7 @@ const Fashion = () => {
             />
           </PrevNextButton>
         </PrevNextButtonContainer>
-        <SeeAllButton>See all</SeeAllButton>
+        <Btn text="SEE ALL" ></Btn>
       </NavigationContainer>
     </Slide2Container>
   );

@@ -1,5 +1,5 @@
 import { LinkContainer, MenuContainer } from "./Menu.styles";
-import { StyledButton } from "../Nav/Nav.styles";
+import Btn from "../Btn/Btn";
 const Menu = ({ isOpen, onClose }) => {
   if (!isOpen) {
     return null;
@@ -12,7 +12,7 @@ const Menu = ({ isOpen, onClose }) => {
         <a href="#">Example 2</a>
         <a href="#">Example 3</a>
       </LinkContainer>
-      <StyledButton onClick={onClose}>Close</StyledButton>
+      <Btn text="SIGN UP" onClick={onClose} ></Btn>
     </MenuContainer>
   );
 };

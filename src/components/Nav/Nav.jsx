@@ -7,6 +7,7 @@ import {
   HamburgerMenu,
 } from "./Nav.styles";
 import Menu from "../Menu/Menu";
+import Btn from "../Btn/Btn";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +21,7 @@ const Navbar = () => {
       <NavContainer>
         <LogoContainer src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/Logo.png?raw=true" />
         <MenuContainer>
-          <StyledButton>SIGN UP</StyledButton>
+          <Btn text="SIGN UP" ></Btn>
           <HamburgerMenu
             src="https://github.com/AjorgeLeite/FashionSchool/blob/main/public/Hamburger.png?raw=true"
             onClick={toggleMenu}

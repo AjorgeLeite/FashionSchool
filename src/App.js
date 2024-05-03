@@ -9,6 +9,7 @@ import Erasmus from "./components/Erasmus/Erasmus";
 import Blog from "./components/Blog/Blog";
 import { SeeAllBtn } from "./components/BigLetterTitle/BigLetterTitle.styles";
 import { useInView } from "react-intersection-observer";
+import Btn from "./components/Btn/Btn";
 function App() {
   const { ref, inView } = useInView({
     triggerOnce: true,
@@ -28,7 +29,7 @@ function App() {
       <Erasmus />
       <div className="BlogTitle">
         <BigLetterTitle letter="B" title="BLOG" text="Latest news" />
-        <SeeAllBtn inView={inView}>SEE ALL</SeeAllBtn>
+        <Btn text="SEE ALL" ></Btn>
       </div>
       <Blog />
       <SewMore />

@@ -159,23 +159,6 @@ export const ImageTextContainer = styled.div`
   transform: translateX(-50%);
 `;
 
-export const SeeAllButton = styled.button`
-  width: 166px;
-  height: 54px;
-  background-color: black;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: var(--medium-font-size);
-  font-weight: var(--bold-font-weight);
-  cursor: pointer;
-  @media screen and (max-width: ${Breakpoints.m}) {
-    width: 100px;
-    height: 40px;
-    font-size: var(--small-font-size);
-  }
-`;
 
 export const NavigationContainer = styled.div`
   display: flex;
