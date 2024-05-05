@@ -12,7 +12,7 @@ const Menu = ({ isOpen, onClose }) => {
         <a href="#">Example 2</a>
         <a href="#">Example 3</a>
       </LinkContainer>
-      <Btn text="SIGN UP" onClick={onClose} ></Btn>
+      <Btn text="CLOSE" onClick={onClose} ></Btn>
     </MenuContainer>
   );
 };

@@ -3,7 +3,6 @@ import {
   LogoContainer,
   NavContainer,
   MenuContainer,
-  StyledButton,
   HamburgerMenu,
 } from "./Nav.styles";
 import Menu from "../Menu/Menu";
