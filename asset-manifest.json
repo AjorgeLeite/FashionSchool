@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/FashionSchool/static/css/main.fdc2d09f.css",
-    "main.js": "/FashionSchool/static/js/main.d137d222.js",
+    "main.js": "/FashionSchool/static/js/main.7a1a1327.js",
     "static/js/453.0caa3913.chunk.js": "/FashionSchool/static/js/453.0caa3913.chunk.js",
     "index.html": "/FashionSchool/index.html",
     "main.fdc2d09f.css.map": "/FashionSchool/static/css/main.fdc2d09f.css.map",
-    "main.d137d222.js.map": "/FashionSchool/static/js/main.d137d222.js.map",
+    "main.7a1a1327.js.map": "/FashionSchool/static/js/main.7a1a1327.js.map",
     "453.0caa3913.chunk.js.map": "/FashionSchool/static/js/453.0caa3913.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fdc2d09f.css",
-    "static/js/main.d137d222.js"
+    "static/js/main.7a1a1327.js"
   ]
 }
